@@ -25,7 +25,8 @@ class PunyaKiosFluentGateway {
             'title' => __('PunyaKios (QRIS)', 'fluentform'),
             'enabled' => $this->getSetting('enabled') == 'yes',
             'method_value' => $this->key,
-            'settings' => $this->getSettings()
+            'settings' => $this->getSettings(),
+            'image' => plugin_dir_url(dirname(__FILE__)) . 'assets/logo.png'
         );
         return $methods;
     }
