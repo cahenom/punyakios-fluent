@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" width="150" alt="PunyaKios Logo">
+</p>
+
 # PunyaKios Payment Gateway for Fluent Forms
 
 Accept QRIS payments through your Fluent Forms. Ideal for donations, simple service payments, or custom order forms.
